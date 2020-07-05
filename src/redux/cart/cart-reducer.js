@@ -4,7 +4,7 @@ import { addItemToCart } from "./cart-utils";
 const { TOGGLE_CART_HIDDEN, ADD_ITEM } = CartActionTypes;
 
 const INITIAL_STATE = {
-  hidden: false,
+  hidden: true,
   cartItems: [],
 };
 
